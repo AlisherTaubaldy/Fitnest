@@ -81,6 +81,7 @@
                 android:textSize="17sp" />
 
             <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/password"
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
@@ -90,6 +91,7 @@
                 android:fontFamily="@font/sf_pro_display_regular"
                 android:gravity="center_vertical"
                 android:hint="@string/password"
+                android:inputType="textPassword"
                 android:textColorHint="@color/whiteTransparent"
                 android:drawableEnd="@drawable/baseline_remove_red_eye_24"/>
 
@@ -103,6 +105,7 @@
                 android:textSize="17sp" />
 
             <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/confirmPass"
                 android:layout_marginTop="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
@@ -111,6 +114,7 @@
                 android:paddingEnd="10dp"
                 android:gravity="center_vertical"
                 android:hint="@string/confirm_enter_password"
+                android:inputType="textPassword"
                 android:fontFamily="@font/sf_pro_display_regular"
                 android:textColorHint="@color/whiteTransparent"
                 android:drawableEnd="@drawable/baseline_remove_red_eye_24" />
@@ -128,8 +132,8 @@
             android:textSize="17sp" />
 
         <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/register"
             android:layout_marginTop="30dp"
-            android:id="@+id/button3"
             android:layout_width="332dp"
             android:layout_height="60dp"
             android:layout_gravity="center"
@@ -138,6 +142,7 @@
             android:letterSpacing="0.1"
             android:text="@string/register"
             android:textColor="@color/white" />
+
     </LinearLayout>
 
 

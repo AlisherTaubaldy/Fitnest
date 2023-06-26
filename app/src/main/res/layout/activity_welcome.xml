@@ -35,7 +35,7 @@
         app:layout_constraintVertical_bias="0.679" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button"
+        android:id="@+id/login"
         android:layout_width="150dp"
         android:layout_height="60dp"
         android:layout_marginStart="40dp"
@@ -50,7 +50,7 @@
         app:layout_constraintVertical_bias="0.8" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button2"
+        android:id="@+id/register"
         android:layout_width="150dp"
         android:layout_height="60dp"
         android:layout_marginEnd="40dp"
@@ -70,7 +70,6 @@
         android:id="@+id/button3"
         android:layout_width="332dp"
         android:layout_height="60dp"
-        android:layout_marginEnd="40dp"
         android:background="@drawable/rounded_facebook_blue"
         android:fontFamily="@font/sf_pro_display_bold"
         android:letterSpacing="0.1"
@@ -78,8 +77,8 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.935" />
 
